@@ -101,7 +101,7 @@ print("📊 Generating Visual Credit Risk Dashboard...")
 
 sns.set_theme(style="whitegrid")
 fig, axes = plt.subplots(2, 2, figsize=(14, 10))
-fig.suptitle("PwC Financial Services: Customer Credit Risk Modeling Dashboard", fontsize=16, fontweight="bold")
+fig.suptitle("Financial Services: Customer Credit Risk Modeling Dashboard", fontsize=16, fontweight="bold")
 
 palette = {"Low Risk": "#2ca02c", "Medium Risk": "#ff7f0e", "High Risk": "#d62728"}
 
