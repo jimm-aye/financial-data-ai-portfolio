@@ -42,7 +42,7 @@ This repository contains an end-to-end data engineering pipeline, credit risk an
   - Multi-tier risk categorization (Low, Medium, High Risk) correlated with historical default probabilities.
 
 ### 📊 Executive Credit Risk Dashboard:
-![Credit Risk Dashboard](project2_risk_analytics/credit_risk_dashboard.png?raw=true&v=2)
+![Credit Risk Dashboard](project2_risk_analytics/risk_dashboard.png)
 
 ---
 
