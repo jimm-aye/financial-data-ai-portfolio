@@ -131,6 +131,6 @@ axes[1, 1].set_xlabel("Risk Classification")
 axes[1, 1].set_ylabel("Default Rate (0.0 - 1.0)")
 
 plt.tight_layout()
-output_image = "credit_risk_dashboard.png"
+output_image = "risk_dashboard.png"
 plt.savefig(output_image, dpi=300)
 print(f"🎉 Dashboard saved successfully as '{output_image}'!")
