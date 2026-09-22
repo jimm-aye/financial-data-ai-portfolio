@@ -510,7 +510,7 @@ def run_agent(user_question: str):
     # --------------------------------------------------------
 
     print("\n")
-    print("📊 PWC FINANCIAL AI INSIGHT")
+    print("📊 FINANCIAL AI INSIGHT")
     print("-" * 70)
     print(final_insight)
     print("=" * 70)
@@ -523,7 +523,7 @@ def run_agent(user_question: str):
 if __name__ == "__main__":
 
     print("\n" + "=" * 70)
-    print("🚀 PWC FINANCIAL AGENTIC AI ASSISTANT")
+    print("🚀 FINANCIAL AGENTIC AI ASSISTANT")
     print("=" * 70)
 
     print(

@@ -79,7 +79,7 @@ print(f"✅ Query executed successfully! Retrieved {len(df_risk):,} customer ris
 # EXECUTIVE SUMMARY AUDIT (Printed to terminal)
 # ==============================================================================
 print("=" * 65)
-print("🏦 PWC EXECUTIVE CREDIT RISK SUMMARY")
+print("🏦 EXECUTIVE CREDIT RISK SUMMARY")
 print("=" * 65)
 tier_summary = df_risk.groupby("risk_tier").agg(
     total_customers=("customer_id", "count"),

@@ -1,7 +1,7 @@
 # Enterprise Financial Data & AI Architecture
-### Portfolio for PwC Financial Services Data & AI Practice
+### Production-Grade Data Engineering, Quantitative Risk Modeling & Autonomous AI
 
-This repository contains an end-to-end financial data engineering, quantitative risk analytics, and autonomous AI assistant ecosystem designed to reflect the modernization challenges of Tier-1 banking clients.
+This repository contains an end-to-end data engineering pipeline, credit risk analytics engine, and autonomous AI assistant ecosystem designed to solve modernization, governance, and analytics challenges in financial services.
 
 ---
 
@@ -9,7 +9,7 @@ This repository contains an end-to-end financial data engineering, quantitative 
 
 ```text
 ├── project1_pii_pipeline/
-│   ├── generate_mock_data.py       # Synthetic data generation with injected data flaws
+│   ├── generate_mock_data.py       # Synthetic banking data generation with injected anomalies
 │   ├── pipeline.py                 # Data profiling, deduplication, imputation & PII masking
 │   └── raw_banking_data.csv        # 10,000 raw customer records
 │
@@ -19,13 +19,13 @@ This repository contains an end-to-end financial data engineering, quantitative 
 │   └── credit_risk_dashboard.png   # Executive credit risk reporting dashboard
 │
 └── project3_ai_agent/
-    └── agent.py                    # Autonomous Agentic Assistant (Amazon Bedrock inspired)
+    └── agent.py                    # Autonomous Agentic Assistant (Amazon Bedrock architecture)
 ```
 
 ---
 
 ## 📁 Project 1: Financial Data Quality & PII Masking Pipeline
-* **Business Objective:** Secure data migration and compliance (GDPR, GLBA, CCPA) for financial platforms (inspired by PwC SAP S/4HANA migrations).
+* **Business Objective:** Secure data migration and regulatory compliance (GDPR, GLBA, CCPA) for core banking platforms.
 * **Key Capabilities:**
   - Automated **Data Profiling Audit Report** detecting duplicate entries and null values.
   - Median-based imputation for missing credit scores and automated handling of legacy contact records.
@@ -47,9 +47,9 @@ This repository contains an end-to-end financial data engineering, quantitative 
 ---
 
 ## 📁 Project 3: "Agentic" Financial Data Assistant
-* **Business Objective:** Autonomous natural-language database querying inspired by **Amazon Bedrock AgentCore**.
+* **Business Objective:** Autonomous natural-language database querying inspired by enterprise **Agentic Architectures**.
 * **Key Capabilities:**
-  - **Text-to-SQL Tooling:** Translates complex natural language prompts into optimized SQLite queries.
+  - **Text-to-SQL Tooling:** Translates complex natural language prompts into optimized SQL queries.
   - **Enterprise Security Guardrails:** Programmatically intercepts and blocks destructive operations (`DROP`, `DELETE`, `UPDATE`).
   - **Code Interpreter & Synthesis:** Synthesizes SQL result sets into executive-level financial commentary.
 
